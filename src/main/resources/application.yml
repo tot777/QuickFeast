@@ -8,6 +8,12 @@ spring:
     username: "root"
     password: "yang269518"
     type: com.alibaba.druid.pool.DruidDataSource
+  data:
+    redis:
+      host: 192.168.75.129
+      port: 6379
+      password: root@123456
+      database: 0 #操作的是0号数据库
 
 mybatis-plus:
   configuration:
