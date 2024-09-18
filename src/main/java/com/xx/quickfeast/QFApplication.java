@@ -12,10 +12,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @ServletComponentScan
 @MapperScan("com.xx.quickfeast.mapper")
 @EnableTransactionManagement
-public class ReggieApplication {
+public class QFApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ReggieApplication.class, args);
+        SpringApplication.run(QFApplication.class, args);
         log.info("hello world");
     }
 
