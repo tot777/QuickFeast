@@ -17,6 +17,7 @@ public class QFApplication {
     public static void main(String[] args) {
         SpringApplication.run(QFApplication.class, args);
         log.info("hello world");
+        System.out.println("hi");
     }
 
 }
